@@ -1,0 +1,143 @@
+/*.parent{
+    background-color: rgb(30, 77, 77);
+    margin:20px;
+padding: 40px;
+border: 1px solid;
+font-size: large;
+box-sizing: border-box;
+text-align: center;
+}
+.parent p{
+    background-color: rgb(117, 150, 33);
+    padding: 20px;
+    margin: auto;
+}
+div{
+    text-align: center;
+span{
+    background-color: rgb(141, 121, 159);
+  
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid;
+}
+}
+#k{
+    background-color: aquamarine;
+} */
+/*html{
+font-size: 40px;
+}
+.parent{
+    font-size: 20px;
+}
+.child{
+    font-size: 5em;
+    width: 20rem;
+    background-color: aqua;
+}*/
+/*.bnt{
+    padding: 1em;
+    background-color: rgb(166, 159, 173);
+    border-radius: 0  8em;
+    border: none;
+    font-size: 30px;
+    width: 10em;
+    display: block;
+    margin: 10px auto;
+}
+.bnt-small{
+    font-size: 20px;  
+}*/
+/*body{
+    height: 100vh;
+    width: 100vh;
+    background-color: aqua;
+}
+.parent{
+    background-color:rgb(228, 37, 7);
+    height: 150px;
+}
+.child{
+    height: 200px;
+    width: 50%;
+    padding: 16px 20px;
+    background-color: rgb(20, 247, 16);
+    overflow: hidden;
+}*/
+/* body{
+    height: 100vh;
+    width: 100vh;
+    padding: 10px 32px;
+}
+.parent{
+    ol{
+        background-color: blueviolet;
+        li:nth-child(2){
+            background-color: aqua;
+        }
+    }
+}
+ul:first-child{
+    background-color: blue;
+   li:nth-child(2){
+    background-color: rgb(251, 16, 180);
+   }
+}
+ul:last-child{
+    background-color: brown;
+    li:nth-child(3){
+        background-color: rgb(153, 17, 199);
+    }
+    
+}
+ol:nth-last-of-type(3){
+    background-color: black;
+}
+ol{
+    background-color: rgb(119, 90, 146);
+} */
+
+/* .child{
+    background-color: bisque;
+    border: 1px solid red;
+    flex-basis: 40px;
+    flex-shrink: 1;
+}
+.search{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.cart{
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+.parent{
+    background-color: aqua;
+     display: flex;  /*for horizontal line */
+    height: 280px;
+    justify-content:space-between; 
+    align-items: flex-end;
+}
+.parent1{
+    background-color: rgb(39, 196, 73);
+    display: flex;
+    height: 280px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.child{
+    background-color: rgb(197, 227, 26);
+    border: 1px solid red;
+    width: 100px;
+    align-self: center;
+   
+}
+.logo{
+    padding: 20px 10px;
+    align-self: center;
+}
+.logo1{
+    padding: 20px 10px;
+    align-self: center;
+}
